@@ -15,7 +15,7 @@ parser.add_argument('--dataset-dir', default = './', metavar='DIR', help='path t
 parser.add_argument('--output-dir', default = './', metavar='DIR', help='path to directory in which output files shoule be saved')
 parser.add_argument('--workers', default=4, type=int, metavar='N', help='number of data loading workers')
 parser.add_argument('-b', '--batch-size', default=50, type=int, metavar='N')
-parser.add_argument('--device', default='cuda:0', help='Device (supports ony cuda)')
+parser.add_argument('--device', default='cuda:0', help='Device (supports only cuda)')
 
 parser.add_argument('-T', '--timesteps', default=4, type=int, help='Simulation timesteps', dest='T')
 parser.add_argument('--width', default=256, type=int, help='width / number of channels in the convolutional layers')
